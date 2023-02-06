@@ -140,7 +140,7 @@ main{
     #beneficts .card{
         margin-top: 1rem;
         margin-right: 1rem;
-        width: calc((100% / 3 )- 2rem);
+        width: calc((100% / 3 ) - 2rem);
     }
     
 }
