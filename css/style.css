@@ -26,6 +26,10 @@ header.site-header{
     top: 0;
     width: 100%;
 }
+main{
+   padding-top: 100px;
+}
+/*Utility*/
 .container{
     max-width: 1170px;
     margin: auto;
@@ -39,11 +43,30 @@ header.site-header{
 .align-center{
     align-items: center;
 }
+/*fine utility*/
+#intro .card{
+    margin-bottom: 1.5rem;
+}
 
 /*responsive*/
 @media screen and (min-width:768px) {
     .container {
         max-width: 740px;
+    }
+    #intro .cards{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -0.75rem;
+        margin-right: -0.75rem;
+    }
+    #intro .card{
+        width: calc((100% / 3) - 1.5rem);
+        margin-left: 0.75rem;
+        margin-right: 0.75rem;
+        background-color: var(--primary-light-color);
+    }
+    #intro .card:first-child{
+        width: calc((100%/3 * 2) - 1.5rem);
     }
     
 }
@@ -51,6 +74,12 @@ header.site-header{
 @media screen and (min-width:992px) {
     .container {
         max-width: 960px;
+    }
+    #intro .card:first-child{
+        display: flex;
+    }
+    #intro .card:first-child > div {
+        width: 50%;
     }
     
 }
