@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#0084FD;
+    --primary-light-color:#B5DDFF; 
+    --secondary-color: #9793E4;
+    --secondary-dark-color: #333333;
+
+}
+
+/*debug*/
+.debug-box{
+    height: 80px;
+    background-color: var(--primary-light-color);
+    padding: 1rem;
+}
+
+/*Regole css*/
+header.site-header{
+    background-color: var(--primary-color);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+}
+.space-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+
+/*responsive*/
+@media screen and (min-width:768px) {
+    .container {
+        max-width: 740px;
+    }
+    
+}
+
+@media screen and (min-width:992px) {
+    .container {
+        max-width: 960px;
+    }
+    
+}
+@media screen and (min-width:1200px) {
+    .container {
+        max-width: 1170px;
+    }
+    
+}
