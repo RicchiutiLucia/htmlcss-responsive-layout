@@ -8,6 +8,7 @@
     --primary-light-color:#B5DDFF; 
     --secondary-color: #9793E4;
     --secondary-dark-color: #333333;
+    --secondary-color-debug-box2:#CECCE0;
 
 }
 
@@ -15,6 +16,11 @@
 .debug-box{
     height: 80px;
     background-color: var(--primary-light-color);
+    padding: 1rem;
+}
+.debug-box2{
+    height: 80px;
+    background-color: var(--secondary-color-debug-box2);
     padding: 1rem;
 }
 
@@ -28,6 +34,16 @@ header.site-header{
 }
 main{
    padding-top: 100px;
+}
+#intro .card{
+    margin-bottom: 1.5rem;
+}
+#planning{
+    background-color: var(--secondary-color);
+    padding: 2rem 0;
+}
+#planning .column{
+    margin: 1rem 0;
 }
 /*Utility*/
 .container{
@@ -44,9 +60,7 @@ main{
     align-items: center;
 }
 /*fine utility*/
-#intro .card{
-    margin-bottom: 1.5rem;
-}
+
 
 /*responsive*/
 @media screen and (min-width:768px) {
@@ -80,6 +94,16 @@ main{
     }
     #intro .card:first-child > div {
         width: 50%;
+    }
+    #planning .columns{
+        display: flex;
+        align-items: flex-end;
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+    #planning .column{
+        width: calc(50% - 2rem);
+        margin: 1rem;
     }
     
 }
