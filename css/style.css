@@ -45,6 +45,12 @@ main{
 #planning .column{
     margin: 1rem 0;
 }
+#testimonial{
+    padding: 3rem 0;
+}
+#testimonial .card{
+    margin: 2rem 0;
+}
 /*Utility*/
 .container{
     max-width: 1170px;
@@ -82,6 +88,14 @@ main{
     #intro .card:first-child{
         width: calc((100%/3 * 2) - 1.5rem);
     }
+    #testimonial .card{
+        display: flex;
+    }
+    #testimonial .card div:last-child{
+        flex-grow: 1;
+    }
+    
+    
     
 }
 
