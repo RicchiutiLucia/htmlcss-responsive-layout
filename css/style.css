@@ -35,6 +35,16 @@ header.site-header{
 main{
    padding-top: 100px;
 }
+footer{
+    background-color: var(--secondary-dark-color);
+    color: white;
+    padding: 50px;
+}
+footer p{
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+}
 #intro .card{
     margin-bottom: 1.5rem;
 }
