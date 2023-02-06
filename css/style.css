@@ -62,7 +62,7 @@ main{
 #about{
     padding: 3rem 0;
 }
-#about .debug-box2 {
+#about .column {
     margin: 2rem 0;
 }
 /*Utility*/
@@ -119,6 +119,16 @@ main{
         margin-right: 1rem;
         width: calc((100% / 2 )- 2rem);
     }
+    #about .columns{
+        display: flex;
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+    #about .column{
+        width: calc(50% - 2rem);
+        margin: 1rem;
+    }
+
 }
 
 @media screen and (min-width:992px) {
