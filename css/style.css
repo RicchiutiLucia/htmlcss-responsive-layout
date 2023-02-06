@@ -62,6 +62,14 @@ main{
 #about{
     padding: 3rem 0;
 }
+#get-started{
+    padding: 3rem 0;
+}
+#get-started .debug-box2{
+    margin: 2rem 0;
+    text-align: center;    
+}
+
 #about .column {
     margin: 2rem 0;
 }
@@ -128,6 +136,13 @@ main{
         width: calc(50% - 2rem);
         margin: 1rem;
     }
+    #get-started{
+        width: 100%;
+        background-color: var(--secondary-color);   
+    }
+    #get-started .debug-box2{
+        background-color: var(--secondary-color-debug-box2);   
+    }
 
 }
 
@@ -156,7 +171,6 @@ main{
         margin-right: 1rem;
         width: calc((100% / 3 ) - 2rem);
     }
-    
 }
 @media screen and (min-width:1200px) {
     .container {
