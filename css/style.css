@@ -59,6 +59,12 @@ main{
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+#about{
+    padding: 3rem 0;
+}
+#about .debug-box2 {
+    margin: 2rem 0;
+}
 /*Utility*/
 .container{
     max-width: 1170px;
@@ -113,8 +119,6 @@ main{
         margin-right: 1rem;
         width: calc((100% / 2 )- 2rem);
     }
-    
-    
 }
 
 @media screen and (min-width:992px) {
