@@ -19,18 +19,6 @@ html{
 
 }
 
-/*debug*/
-.debug-box{
-    height: 80px;
-    background-color: var(--primary-light-color);
-    padding: 1rem;
-}
-.debug-box2{
-    height: 80px;
-    background-color: var(--secondary-color-debug-box2);
-    padding: 1rem;
-}
-
 /*Regole css*/
 header.site-header{
     background-color: var(--primary-color);
