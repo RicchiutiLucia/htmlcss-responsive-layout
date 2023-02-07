@@ -9,6 +9,9 @@
     --secondary-color: #9793E4;
     --secondary-dark-color: #333333;
     --secondary-color-debug-box2:#CECCE0;
+    --text-white:#fff;
+    --text-black:#000;
+    --text-grey:#5A6E7F;
 
 }
 
@@ -31,6 +34,10 @@ header.site-header{
     left: 0;
     top: 0;
     width: 100%;
+    height: 70px;
+}
+header.site-header .container{
+    height: 100%;
 }
 main{
    padding-top: 100px;
@@ -83,10 +90,43 @@ footer p{
 #about .column {
     margin: 2rem 0;
 }
+.main-menu{
+    display: none;
+}
+.main-menu ul{
+    
+    list-style: none;
+}
+.main-menu li{
+    margin-left: 1rem;
+}
+.main-menu li a{
+    text-decoration: none;
+}
+.hamburger{
+    color: var(--text-white);
+    font-size: 1.5rem;
+}
+.text-white{
+    color:var(--text-white);
+}
+.text-black{
+    color:var(--text-black);
+}
+.btn{
+    padding: 5px 10px;
+    text-decoration: none;  
+    border-radius: 50px;
+}
+.btn-white{
+    background-color: var(--text-white);
+}
+
 /*Utility*/
 .container{
     max-width: 1170px;
     margin: auto;
+    padding: 1.5rem;
 }
 .flex{
     display: flex;
@@ -180,6 +220,12 @@ footer p{
         margin-top: 1rem;
         margin-right: 1rem;
         width: calc((100% / 3 ) - 2rem);
+    }
+    .hamburger{
+        display: none;
+    }
+    .main-menu{
+        display: flex;
     }
 }
 @media screen and (min-width:1200px) {
