@@ -69,6 +69,7 @@ footer p{
 }
 #planning .column{
     margin: 1rem 0;
+    padding: 2rem 0;
 }
 .planning-img img {
     width: 100%;
@@ -76,8 +77,10 @@ footer p{
 #planning .btn{
     background-color:var(--secondary-color);
     border-radius: 50%;
+    margin-top: 1rem;
     padding: 1rem 1.3rem;
 }
+
 .developement {
     text-align: center;
     margin: auto;
@@ -96,10 +99,7 @@ footer p{
     font-size: 1.6rem;
     padding: 2rem 0;
 }
-.container-card2{
-    margin: 0 auto;
-    width: 90%;
-}
+
 #planning p{
     padding: 0.5rem 0;
     margin-bottom: 0.5rem;
@@ -307,6 +307,7 @@ footer p{
         align-items: flex-end;
         padding-left: 6rem;
         padding-right: 6rem;
+        margin-bottom: 1.5rem;
     }
     #planning .column{
         width: calc(50% - 2rem);
