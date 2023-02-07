@@ -64,9 +64,45 @@ footer p{
 #planning{
     background-color: var(--secondary-color);
     padding: 2rem 0;
+    color: white;
+    width: 100%
 }
 #planning .column{
     margin: 1rem 0;
+}
+.planning-img img {
+    width: 100%;
+}
+#planning .btn{
+    background-color:var(--secondary-color);
+    border-radius: 50%;
+    padding: 1rem 1.3rem;
+}
+.developement {
+    text-align: center;
+    margin: auto;
+}
+.white {
+    background-color: var(--text-white);
+    border-radius: 2rem;
+    color: var(--text-black);
+}
+.white p {
+    font-style: italic;
+    font-size: 13px;
+}
+.card-title2 {
+    font-weight: bold;
+    font-size: 1.6rem;
+    padding: 2rem 0;
+}
+.container-card2{
+    margin: 0 auto;
+    width: 90%;
+}
+#planning p{
+    padding: 0.5rem 0;
+    margin-bottom: 0.5rem;
 }
 #testimonial{
     padding: 3rem 0;
@@ -248,8 +284,12 @@ footer p{
         margin: 0;
         width: 50%;
     }
-
+    .big {
+        font-size: 3rem;
+    }
 }
+
+
 
 @media screen and (min-width:992px) {
     .container {
@@ -283,7 +323,19 @@ footer p{
     .main-menu{
         display: flex;
     }
+    #planning .container {
+        display: flex;
+        width: 70%;
+        margin: 4rem auto;
+    }
+
+    .planning-img {
+        margin: 4rem;
+        padding: 2rem;
+    }
+    
 }
+
 @media screen and (min-width:1200px) {
     .container {
         max-width: 1170px;
