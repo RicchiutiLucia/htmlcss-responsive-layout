@@ -58,6 +58,8 @@ footer p{
 }
 #intro .card{
     margin-bottom: 1.5rem;
+    text-align: center;
+    background-color: var(--primary-light-color);
 }
 #planning{
     background-color: var(--secondary-color);
@@ -123,13 +125,13 @@ footer p{
     text-decoration: none;  
     border-radius: 50px;
 }
-.btn-white{
+.btn.btn-white{
     background-color: var(--text-white);
 }
-.btn-blue{
+.btn.btn-blue{
     background-color: var(--primary-color);
 }
-.btn-big{
+.btn.btn-big{
     padding: 5px 40px;
 }
 #intro .card:first-child{
@@ -139,6 +141,30 @@ footer p{
 .first-card-img{
     width: 60%;
     align-self: flex-end;
+    display: block;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+.first-card-text{
+    padding: 1.5rem;
+}
+#intro .card-title{
+    color: #0084fd;
+    font-weight: bolder;
+    font-size: 2rem;
+    padding: 20px 5px;
+    font-size: 1.5rem;
+}
+#intro .icon{
+    color: #0084FD;
+    font-size: 5rem;
+    padding: 20px;
+}
+#intro .card p{
+    color: var(--text-grey);
+    padding: 0.5rem 1rem;
+    line-height: 2rem;
+    font-weight: bold;
 }
 
 /*Utility*/
@@ -159,6 +185,9 @@ footer p{
 .mb-2{
     margin-bottom: 2rem;
 }
+.rounded{
+    border-radius: 1.5rem;
+}
 /*fine utility*/
 
 
@@ -177,7 +206,7 @@ footer p{
         width: calc((100% / 3) - 1.5rem);
         margin-left: 0.75rem;
         margin-right: 0.75rem;
-        background-color: var(--primary-light-color);
+        
     }
     #intro .card:first-child{
         width: calc((100%/3 * 2) - 1.5rem);
@@ -214,6 +243,10 @@ footer p{
     }
     #get-started .debug-box2{
         background-color: var(--secondary-color-debug-box2);   
+    }
+    .first-card-img{
+        margin: 0;
+        width: 50%;
     }
 
 }
