@@ -105,10 +105,13 @@ footer p{
     font-size: 18px;
 }
 #testimonial{
-    padding: 3rem 0;
+    padding: 3rem 1rem;
 }
 #testimonial .card{
+    padding: 1rem 0;
     margin: 2rem 0;
+    background-color: var(--secondary-color);
+    text-align: center;
 }
 #beneficts{
     background-color: var(--secondary-color);
@@ -206,6 +209,11 @@ footer p{
     text-align: center;
     font-weight:lighter;
 }
+#testimonial h6{
+    text-align: center; 
+    margin-top: 1rem; 
+    font-size: 18px; 
+}
 #testimonial h3{
     color: var(--secondary-color);
     font-size: 30px;
@@ -214,6 +222,13 @@ footer p{
 }
 #testimonial p{
     text-align: center;
+    line-height: 1.6rem;
+}
+#testimonial .testimonial-img{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
 
 /*Utility*/
@@ -342,6 +357,10 @@ footer p{
     .planning-img .img-developer{
         width: 60%;
     }
+    #testimonial .card{
+        
+    }
+   
 
     
 }
