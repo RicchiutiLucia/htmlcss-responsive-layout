@@ -37,13 +37,21 @@ main{
 }
 footer{
     background-color: var(--secondary-dark-color);
-    color: white;
+    color: var(--text-white);
     padding: 50px;
 }
-footer p{
-    margin-bottom: 50px;
-    padding-bottom: 20px;
+.foot {
     text-align: center;
+    padding: 2rem 2rem;
+    font-size: 0.8rem;
+}
+
+footer p {
+    padding: 2rem 0;
+}
+
+footer a {
+    color: var(--secondary-color);
 }
 #intro .card{
     margin-bottom: 1.5rem;
@@ -458,6 +466,10 @@ footer p{
     .description {
         font-size: 2rem;
     }
+    .foot {
+        width: 70%;
+        margin: 0 auto;
+    }
 
 }
 
@@ -512,6 +524,10 @@ footer p{
         font-size: 3.5rem;
     }
     .start {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .foot {
         width: 50%;
         margin: 0 auto;
     }
