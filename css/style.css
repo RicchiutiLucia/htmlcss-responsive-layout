@@ -16,6 +16,7 @@ html{
     --text-white:#fff;
     --text-black:#000;
     --text-grey:#5A6E7F;
+    --text-light-grey:#d5d4f4;
 
 }
 
@@ -160,6 +161,7 @@ footer p{
 }
 #get-started{
     padding: 3rem 0;
+    background-color: var(--secondary-color);
 }
 #get-started .debug-box2{
     margin: 2rem 0;
@@ -298,6 +300,53 @@ footer p{
     line-height: 1.6rem;
     margin-bottom: 1.5rem;
 }
+.text-light-grey{
+    color: var(--text-light-grey);
+}
+#get-started p{
+    margin-bottom: 2rem;
+}
+#get-started .start {
+    text-align: center;
+    padding: 3rem 2rem;
+}
+#get-started .start-btn{
+    margin: 2rem 0;
+}
+#get-started .description {
+    font-weight: bolder;
+    padding: 1.2rem;
+}
+#get-started .start-title {
+    color: #fdc15f;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+.started {
+    font-weight: 0.5rem;
+}
+.start .btn{
+    background-color: white;
+    color: #9593E6;
+    border-radius: 20rem;
+    padding: 0.8rem 3.5rem;
+    font-weight: bold;
+    margin: 2rem 2rem;
+}
+.subtitle {
+    font-size: 0.8rem;
+    margin: 2rem 0;
+}
+.subtitle a {
+    text-decoration: underline;
+    color: white;
+   
+}
+
+.subtitle i {
+    font-size: 0.3rem;
+}
 /*Utility*/
 .container{
     max-width: 1170px;
@@ -401,6 +450,14 @@ footer p{
         color: var(--secondary-color);
         font-size: 3.5rem;
     }
+    .start {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .description {
+        font-size: 2rem;
+    }
 
 }
 
@@ -450,9 +507,13 @@ footer p{
     #about .about-pos {
         position: absolute;
         top: 0;
-        right: 45%;
+        right: 55%;
         color: var(--secondary-color);
         font-size: 3.5rem;
+    }
+    .start {
+        width: 50%;
+        margin: 0 auto;
     }
    
 
