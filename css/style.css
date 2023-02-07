@@ -300,6 +300,21 @@ footer p{
         margin: 0;
         width: 50%;
     }
+    #testimonial .content{
+        align-self: center;
+    }
+    #testimonial .testimonial-img{
+        margin-left: 1rem;
+    }
+    #testimonial p{
+        text-align: left;
+        padding:0 3rem;
+        
+    }
+    #testimonial h6{
+        text-align: left;
+        padding: 0 3rem; 
+    }
 }
 
 
