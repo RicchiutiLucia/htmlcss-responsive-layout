@@ -77,7 +77,6 @@ footer p{
 #planning .btn{
     background-color:var(--secondary-color);
     border-radius: 50%;
-    margin-top: 1rem;
     padding: 1rem 1.3rem;
 }
 
@@ -101,8 +100,9 @@ footer p{
 }
 
 #planning p{
-    padding: 0.5rem 0;
-    margin-bottom: 0.5rem;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    font-size: 18px;
 }
 #testimonial{
     padding: 3rem 0;
@@ -201,6 +201,19 @@ footer p{
     padding: 0.5rem 1rem;
     line-height: 2rem;
     font-weight: bold;
+}
+#testimonial h5{
+    text-align: center;
+    font-weight:lighter;
+}
+#testimonial h3{
+    color: var(--secondary-color);
+    font-size: 30px;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+#testimonial p{
+    text-align: center;
 }
 
 /*Utility*/
@@ -325,6 +338,9 @@ footer p{
         display: flex;
         width: 70%;
         margin: 4rem auto;
+    }
+    .planning-img .img-developer{
+        width: 60%;
     }
 
     
