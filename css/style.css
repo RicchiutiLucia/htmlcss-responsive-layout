@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+html{
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
 :root{
     --primary-color:#0084FD;
     --primary-light-color:#B5DDFF; 
@@ -98,7 +102,8 @@ footer p{
     list-style: none;
 }
 .main-menu li{
-    margin-left: 1rem;
+    margin-left: 1.5rem;
+    font-size: 14px;
 }
 .main-menu li a{
     text-decoration: none;
